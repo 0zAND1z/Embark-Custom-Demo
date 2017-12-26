@@ -1,0 +1,17 @@
+{
+  "default": {
+    "enabled": true,
+    "ipfs_bin": "ipfs",
+    "provider": "ipfs",
+    "available_providers": ["ipfs"],
+    "host": "0.0.0.0",
+    "port": 5001
+  },
+  "development": {
+    "enabled": true,
+    "provider": "ipfs",
+    "host": "0.0.0.0",
+    "port": 5001,
+    "getUrl": "http://0.0.0.0:8080/ipfs/"
+  }
+}
